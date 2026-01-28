@@ -1,3 +1,6 @@
+# Conect4 Remodel 💚
+recreating the barracred conecta website and adding a lightweight student registration platform to upload their CVs and profiles
+----------------------------------------------------------------------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
