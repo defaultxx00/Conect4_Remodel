@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoginPage = () => {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center p-4">
+    <div className="min-h-2/4 bg-black flex items-center justify-center p-4">
       {/* Container com efeito Glassmorphism suave */}
       <div className="w-full max-w-md bg-[#111111] border border-white/10 rounded-2xl p-8 shadow-2xl">
         
@@ -38,13 +38,18 @@ const LoginPage = () => {
 
           {/* Botões inspirados na imagem de pagamento enviada */}
           <div className="flex gap-4 pt-4">
-            <button 
+            <button
+             
               type="submit"
-              className="flex-1 bg-white text-black font-semibold py-3 rounded-lg hover:bg-gray-200 transition-colors"
+              className="flex-1 bg-white text-black font-semibold py-3 rounded-lg hover:bg-gray-200 transition-colors
+              
+              "
+              
             >
               Entrar
             </button>
             <button 
+          
               type="button"
               className="flex-1 bg-[#1a1a1a] text-white font-semibold py-3 rounded-lg border border-white/10 hover:bg-[#252525] transition-colors"
             >

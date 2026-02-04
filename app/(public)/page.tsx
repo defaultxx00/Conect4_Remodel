@@ -1,5 +1,4 @@
-import Login from "../components/Login";
-import Register from "./Register";
+
 export default function Home() {
   return (
     <>
@@ -7,11 +6,13 @@ export default function Home() {
         <h1 className="text-green-600 font-black font-sans text-center">header</h1>
         
       </header>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center w-full">
+          <div className="bg-gradient-to-r from-slate-900 to-green-400 w-300 h-0.5"></div>
           <div className="bg-green-400 w-300 h-0.5"></div>
+          <div className="bg-gradient-to-r from-green-400 to-slate-900 w-300 h-0.5"></div>
         </div>
-      <main className="flex items-center justify-center w-full bg-black">
-        <Login />
+      <main className="flex items-center justify-center  h-120 w-full bg-black">
+        <h1>home page</h1>
         
       </main>
 
